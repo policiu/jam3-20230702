@@ -1,11 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://eksme3sd0sly"]
+[gd_scene load_steps=8 format=3 uid="uid://eksme3sd0sly"]
 
 [ext_resource type="Script" path="res://Assets/Code/Player.gd" id="1_ctjrr"]
-[ext_resource type="Script" path="res://Assets/Code/ExplodeTimer.gd" id="1_plha5"]
 [ext_resource type="Texture2D" uid="uid://bqw5j8crhlfgc" path="res://Assets/Sprites/caveman/idle.png" id="2_ak7jd"]
+[ext_resource type="Texture2D" uid="uid://wdq5odx3xa6l" path="res://Assets/Sprites/caveman/walk.png" id="4_hjtsk"]
+[ext_resource type="Texture2D" uid="uid://bub3i6c4mdxb2" path="res://Assets/Sprites/caveman/jump.png" id="5_4y1jd"]
+[ext_resource type="Texture2D" uid="uid://bq3w45dr20fa6" path="res://Assets/Sprites/caveman/attack.png" id="6_iuyo0"]
+[ext_resource type="Texture2D" uid="uid://c14go6a1dgrni" path="res://Assets/Sprites/caveman/hurt.png" id="7_pg3wh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yhcsr"]
-size = Vector2(42, 32)
+size = Vector2(42, 28)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_ctjrr")
@@ -13,7 +16,24 @@ script = ExtResource("1_ctjrr")
 [node name="Idle" type="Sprite2D" parent="."]
 texture_filter = 1
 texture = ExtResource("2_ak7jd")
-script = ExtResource("1_plha5")
+
+[node name="Walk" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("4_hjtsk")
+hframes = 4
+
+[node name="Jump" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("5_4y1jd")
+hframes = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_yhcsr")
+
+[node name="Attack" type="Sprite2D" parent="."]
+texture = ExtResource("6_iuyo0")
+hframes = 3
+
+[node name="Hurt" type="Sprite2D" parent="."]
+texture = ExtResource("7_pg3wh")
+hframes = 2
