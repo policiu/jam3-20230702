@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wdq5odx3xa6l"
-path="res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"
+uid="uid://crkymy8nnrpe3"
+path="res://.godot/imported/pounce.png-44a2c47d06f6f8255ff54d339fcafd1b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/caveman/walk.png"
-dest_files=["res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"]
+source_file="res://Assets/Sprites/tiger/pounce.png"
+dest_files=["res://.godot/imported/pounce.png-44a2c47d06f6f8255ff54d339fcafd1b.ctex"]
 
 [params]
 

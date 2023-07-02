@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Assets/Code/Player.gd" id="1_ctjrr"]
 [ext_resource type="Script" path="res://Assets/Code/ExplodeTimer.gd" id="1_plha5"]
-[ext_resource type="Texture2D" uid="uid://dtc3rjdj64xui" path="res://Assets/Sprites/caveman/idle.png" id="2_ak7jd"]
+[ext_resource type="Texture2D" uid="uid://bqw5j8crhlfgc" path="res://Assets/Sprites/caveman/idle.png" id="2_ak7jd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yhcsr"]
 size = Vector2(42, 32)
@@ -11,6 +11,7 @@ size = Vector2(42, 32)
 script = ExtResource("1_ctjrr")
 
 [node name="Idle" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("2_ak7jd")
 script = ExtResource("1_plha5")
 

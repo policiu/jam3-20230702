@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wdq5odx3xa6l"
-path="res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"
+uid="uid://bhubx0col6s0j"
+path="res://.godot/imported/idle.png-167023ff17d7e86a632ef91bf1e40534.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/caveman/walk.png"
-dest_files=["res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"]
+source_file="res://Assets/Sprites/tiger/idle.png"
+dest_files=["res://.godot/imported/idle.png-167023ff17d7e86a632ef91bf1e40534.ctex"]
 
 [params]
 

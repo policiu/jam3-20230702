@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wdq5odx3xa6l"
-path="res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"
+uid="uid://bbdi645x345j3"
+path="res://.godot/imported/box.png-8cb234a01ce1c60eb7b9e3deca693e25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/caveman/walk.png"
-dest_files=["res://.godot/imported/walk.png-79373a0a01a9f467ebbb61be3f591454.ctex"]
+source_file="res://Assets/Sprites/box/box.png"
+dest_files=["res://.godot/imported/box.png-8cb234a01ce1c60eb7b9e3deca693e25.ctex"]
 
 [params]
 
