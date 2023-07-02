@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://eksme3sd0sly"]
+
+[ext_resource type="Script" path="res://Assets/Code/Player.gd" id="1_ctjrr"]
+[ext_resource type="Script" path="res://Assets/Code/ExplodeTimer.gd" id="1_plha5"]
+[ext_resource type="Texture2D" uid="uid://dtc3rjdj64xui" path="res://Assets/Sprites/caveman/idle.png" id="2_ak7jd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yhcsr"]
+size = Vector2(42, 32)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_ctjrr")
+
+[node name="Idle" type="Sprite2D" parent="."]
+texture = ExtResource("2_ak7jd")
+script = ExtResource("1_plha5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_yhcsr")
