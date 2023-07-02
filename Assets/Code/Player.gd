@@ -14,6 +14,7 @@ const cooldown: int = 2
 
 func attack():
 	# Do Sprite :3
+	pass
 	
 
 
